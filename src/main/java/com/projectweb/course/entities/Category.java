@@ -49,7 +49,7 @@ public class Category implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	public Set<Product> getProducts() {
 		return products;
 	}
@@ -70,5 +70,7 @@ public class Category implements Serializable {
 		Category other = (Category) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	
 
 }
